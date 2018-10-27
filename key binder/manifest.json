@@ -1,13 +1,20 @@
 {
-  "manifest_version": 2,
-
-  "name": "Traversy Launcher",
-  "description": "Quick launch Traversy Media",
-  "version": "1.0.0",
-  "icons": { "128": "icon_128.png" },
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
-  "permissions": ["activeTab"]
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "name": "Key Binder",
+    "description": "Key Binder by Comphonia",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["popup.js"],
+        "persistent": true
+    },
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+    "icons": {
+        "128": "icon_128.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
 }
