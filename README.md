@@ -1,7 +1,7 @@
 # Key-Binder
 Chrome Extension for binding keyboard keys to page elements
 
-#Task-List
+### Task-List
 - [x] Setup template
 - [x] Setup UI
 - [x] UI CRUD
